@@ -1,13 +1,3 @@
-student_dict = {
-    "student": ["Angela", "James", "Lily"], 
-    "score": [56, 76, 98]
-}
-
-#Looping through dictionaries:
-for (key, value) in student_dict.items():
-    #Access key and value
-    pass
-
 import pandas
 student_data_frame = pandas.DataFrame(student_dict)
 
